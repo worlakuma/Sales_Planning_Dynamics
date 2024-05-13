@@ -1,17 +1,18 @@
-# Sales_Planning_Dynamics
-Tracks and adjusts production based on sales and stock levels, ensuring optimal inventory management through automated calculations. Essential for maintaining efficient supply chains.
+## Sales Planning Dynamic
+This Python script is designed to help businesses forecast sales quantities and manage stock levels over a specified planning period. It prompts the user to input initial stock levels for a product and the number of months for which sales planning is required. Then, it iteratively collects planned sales quantities for each month and calculates production quantities and updated stock levels accordingly.
 
-Manage production and stock efficiently with our automated system that adjusts production quantities based on monthly sales and stock balances.
-## Features- **Automated Production Adjustments**: Calculates necessary production adjustments to meet sales demands.- **Real-time Stock Management**: Updates stock levels in real time following sales activity.
-## How It Works
-The script processes monthly sales data and compares it with existing stock. If sales exceed stock, production is ramped up accordingly. If sales are less than the stock, the stock is adjusted without additional production.
-### System Outputs- Production quantities for each month.- Updated stock levels post-sale.
+### Usage
+Run the script in a Python environment.
+Input the initial stock level for the product.
+Input the number of months for which sales planning is required.
+Enter the planned sales quantity for each month when prompted.
 
-## Usage
-Simply input your monthly sales data and current stock levels to receive updated production and stock information.
-## Example Output```plaintext
-Production Quantity For Month 2 := 0 New Stock Level 2 := 950
-Production Quantity For Month 3 := 120 New Stock Level 3 := 1000
+### Functionality
+Initial Stock Level: Input the initial stock level for the product.
+Number of Months to Plan: Specify the number of months for which sales planning is needed.
+Planned Sales Quantity: Enter the planned sales quantity for each month.
+Production Quantity Calculation: The script calculates production quantities based on planned sales and current stock levels.
+Stock Balance Update: It updates the stock balance after each month's sales and production.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
